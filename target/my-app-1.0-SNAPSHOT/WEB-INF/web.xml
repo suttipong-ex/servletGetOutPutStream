@@ -12,18 +12,27 @@
 <!--    <servlet>
         <servlet-name>myservlet</servlet-name>
         <servlet-class>com.mycompany.my.app.Myservlet</servlet-class>
-    </servlet>-->
-    <servlet>
+    </servlet>--><!--    
+    <servlet-mapping>
+        <servlet-name>myservlet</servlet-name>
+        <url-pattern>/my</url-pattern>
+    </servlet-mapping>-->
+<!--    <servlet>
         <servlet-name>myservlet</servlet-name>
         <servlet-class>com.mycompany.my.app.HomeWorkServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>myservlet</servlet-name>
         <url-pattern>/my</url-pattern>
-    </servlet-mapping>
-<!--    
-    <servlet-mapping>
-        <servlet-name>myservlet</servlet-name>
-        <url-pattern>/my</url-pattern>
     </servlet-mapping>-->
+    <servlet>
+        <servlet-name>DownloadFile</servlet-name>
+        <servlet-class>com.mycompany.my.app.DownloadFile</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DownloadFile</servlet-name>
+        <url-pattern>/mydownloadFile</url-pattern>
+    </servlet-mapping>
+    
+
 </web-app>

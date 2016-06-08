@@ -1,2 +1,3 @@
 com/mycompany/my/app/Myservlet.class
-com/mycompany/my/app/HomeWorkServlet.class
+com/mycompany/my/app/AutoClose.class
+com/mycompany/my/app/DownloadFile.class
